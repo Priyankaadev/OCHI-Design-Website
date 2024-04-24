@@ -1,12 +1,12 @@
-import './App.css'
+import React from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
-  
 
   return (
-    <>
-     <h1>Hello</h1>
-    </>
+   <div className="w-full h-screen bg-zinc-900 text-white">
+    <Navbar />
+   </div>
   )
 }
 
